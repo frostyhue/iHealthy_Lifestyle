@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D82CEFAB20BD5DA00D36FF7 /* Pods_iHealthyLifestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5568F4911BC0AFC4398A7E /* Pods_iHealthyLifestyle.framework */; };
+		831B442C207D384300666F2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 831B442B207D384300666F2A /* GoogleService-Info.plist */; };
+		831B442E207D3A6E00666F2A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831B442D207D3A6E00666F2A /* AuthViewController.swift */; };
+		833B5167207ECEC60054F779 /* MyWorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B5166207ECEC60054F779 /* MyWorkoutsViewController.swift */; };
+		833B516C207ED5270054F779 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B516B207ED5270054F779 /* Section.swift */; };
+		833B516E207ED5C00054F779 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B516D207ED5C00054F779 /* ExpandableHeaderView.swift */; };
+		833B5172207F065D0054F779 /* FavExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B5171207F065D0054F779 /* FavExerciseTableViewCell.swift */; };
+		833B5174207F07020054F779 /* FavExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B5173207F07020054F779 /* FavExercisesTableViewController.swift */; };
+		837C91ED207F40B7009C6C45 /* ExerciseSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C91EC207F40B7009C6C45 /* ExerciseSelectorTableViewCell.swift */; };
+		837C91EF207F4983009C6C45 /* WorkoutSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C91EE207F4983009C6C45 /* WorkoutSelectorTableViewCell.swift */; };
+		838C7F0A207F22520008BFC7 /* ExercisesInWorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C7F09207F22520008BFC7 /* ExercisesInWorkoutTableViewCell.swift */; };
+		838C7F0C207F246B0008BFC7 /* SingleWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838C7F0B207F246B0008BFC7 /* SingleWorkoutViewController.swift */; };
+		83A5604F207D5F96003C40C1 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5604E207D5F96003C40C1 /* ExercisesViewController.swift */; };
+		83A56051207DA41E003C40C1 /* CheckboxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A56050207DA41E003C40C1 /* CheckboxTableViewCell.swift */; };
+		83A56053207DBC15003C40C1 /* ExercisesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A56052207DBC15003C40C1 /* ExercisesListViewController.swift */; };
+		83A56055207DC836003C40C1 /* WorkoutsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A56054207DC836003C40C1 /* WorkoutsListViewController.swift */; };
+		83A7FF4B207F883A00E74D91 /* emotion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 83A7FF4A207F883A00E74D91 /* emotion.jpeg */; };
+		83C9915B207C506B00F03AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9915A207C506B00F03AB7 /* AppDelegate.swift */; };
+		83C99160207C506B00F03AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C9915E207C506B00F03AB7 /* Main.storyboard */; };
+		83C99162207C506B00F03AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C99161207C506B00F03AB7 /* Assets.xcassets */; };
+		83C99165207C506B00F03AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C99163207C506B00F03AB7 /* LaunchScreen.storyboard */; };
+		83C99170207C506B00F03AB7 /* iHealthyLifestyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9916F207C506B00F03AB7 /* iHealthyLifestyleTests.swift */; };
+		83C99185207C50F700F03AB7 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C9917D207C50F600F03AB7 /* UIViewController+MMDrawerController.m */; };
+		83C99186207C50F700F03AB7 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C99181207C50F600F03AB7 /* MMDrawerBarButtonItem.m */; };
+		83C99187207C50F700F03AB7 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C99182207C50F600F03AB7 /* MMDrawerController.m */; };
+		83C99188207C50F700F03AB7 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C99183207C50F600F03AB7 /* MMDrawerVisualState.m */; };
+		83C9918A207C521200F03AB7 /* LeftSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C99189207C521200F03AB7 /* LeftSideViewController.swift */; };
+		83C9918C207C56D800F03AB7 /* NavDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9918B207C56D800F03AB7 /* NavDrawerTableViewCell.swift */; };
+		83DBF34E207EAC2400F9E538 /* SingleExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DBF34D207EAC2400F9E538 /* SingleExerciseViewController.swift */; };
+		856724D8B91FF8F2C4D31E3F /* Pods_iHealthyLifestyleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D653756F3CFDA29246C4824 /* Pods_iHealthyLifestyleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C9916C207C506B00F03AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C9914F207C506B00F03AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C99156207C506B00F03AB7;
+			remoteInfo = iHealthyLifestyle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3AE3C81B95B5957C490AD4 /* Pods-iHealthyLifestyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHealthyLifestyle.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHealthyLifestyle/Pods-iHealthyLifestyle.release.xcconfig"; sourceTree = "<group>"; };
+		1D653756F3CFDA29246C4824 /* Pods_iHealthyLifestyleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHealthyLifestyleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531EBA4E66EBB2263630C376 /* Pods-iHealthyLifestyle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHealthyLifestyle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHealthyLifestyle/Pods-iHealthyLifestyle.debug.xcconfig"; sourceTree = "<group>"; };
+		53F6F13508E061ADFF98196E /* Pods-iHealthyLifestyleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHealthyLifestyleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iHealthyLifestyleTests/Pods-iHealthyLifestyleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		831B442B207D384300666F2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		831B442D207D3A6E00666F2A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		833B5166207ECEC60054F779 /* MyWorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsViewController.swift; sourceTree = "<group>"; };
+		833B516B207ED5270054F779 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		833B516D207ED5C00054F779 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		833B5171207F065D0054F779 /* FavExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		833B5173207F07020054F779 /* FavExercisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavExercisesTableViewController.swift; sourceTree = "<group>"; };
+		837C91EC207F40B7009C6C45 /* ExerciseSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSelectorTableViewCell.swift; sourceTree = "<group>"; };
+		837C91EE207F4983009C6C45 /* WorkoutSelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSelectorTableViewCell.swift; sourceTree = "<group>"; };
+		838C7F09207F22520008BFC7 /* ExercisesInWorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesInWorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		838C7F0B207F246B0008BFC7 /* SingleWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleWorkoutViewController.swift; sourceTree = "<group>"; };
+		83A5604E207D5F96003C40C1 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		83A56050207DA41E003C40C1 /* CheckboxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxTableViewCell.swift; sourceTree = "<group>"; };
+		83A56052207DBC15003C40C1 /* ExercisesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesListViewController.swift; sourceTree = "<group>"; };
+		83A56054207DC836003C40C1 /* WorkoutsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListViewController.swift; sourceTree = "<group>"; };
+		83A7FF4A207F883A00E74D91 /* emotion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emotion.jpeg; sourceTree = "<group>"; };
+		83C99157207C506B00F03AB7 /* iHealthyLifestyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHealthyLifestyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C9915A207C506B00F03AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83C9915F207C506B00F03AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C99161207C506B00F03AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C99164207C506B00F03AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C99166207C506B00F03AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C9916B207C506B00F03AB7 /* iHealthyLifestyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHealthyLifestyleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C9916F207C506B00F03AB7 /* iHealthyLifestyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHealthyLifestyleTests.swift; sourceTree = "<group>"; };
+		83C99171207C506B00F03AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C9917B207C50F500F03AB7 /* iHealthyLifestyle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHealthyLifestyle-Bridging-Header.h"; sourceTree = "<group>"; };
+		83C9917C207C50F600F03AB7 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		83C9917D207C50F600F03AB7 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		83C9917E207C50F600F03AB7 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		83C9917F207C50F600F03AB7 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		83C99180207C50F600F03AB7 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		83C99181207C50F600F03AB7 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		83C99182207C50F600F03AB7 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		83C99183207C50F600F03AB7 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		83C99184207C50F700F03AB7 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		83C99189207C521200F03AB7 /* LeftSideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideViewController.swift; sourceTree = "<group>"; };
+		83C9918B207C56D800F03AB7 /* NavDrawerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerTableViewCell.swift; sourceTree = "<group>"; };
+		83DBF34D207EAC2400F9E538 /* SingleExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExerciseViewController.swift; sourceTree = "<group>"; };
+		BC122D83604DD5C13B760214 /* Pods-iHealthyLifestyleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iHealthyLifestyleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iHealthyLifestyleTests/Pods-iHealthyLifestyleTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC5568F4911BC0AFC4398A7E /* Pods_iHealthyLifestyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHealthyLifestyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C99154207C506B00F03AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D82CEFAB20BD5DA00D36FF7 /* Pods_iHealthyLifestyle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C99168207C506B00F03AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856724D8B91FF8F2C4D31E3F /* Pods_iHealthyLifestyleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B0A14F5403BD20E6E80E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				531EBA4E66EBB2263630C376 /* Pods-iHealthyLifestyle.debug.xcconfig */,
+				0C3AE3C81B95B5957C490AD4 /* Pods-iHealthyLifestyle.release.xcconfig */,
+				53F6F13508E061ADFF98196E /* Pods-iHealthyLifestyleTests.debug.xcconfig */,
+				BC122D83604DD5C13B760214 /* Pods-iHealthyLifestyleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39DDEC92AE1F38887E03362D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5568F4911BC0AFC4398A7E /* Pods_iHealthyLifestyle.framework */,
+				1D653756F3CFDA29246C4824 /* Pods_iHealthyLifestyleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		833B516A207ED5120054F779 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				833B516B207ED5270054F779 /* Section.swift */,
+				833B516D207ED5C00054F779 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		83C9914E207C506B00F03AB7 = {
+			isa = PBXGroup;
+			children = (
+				83C99159207C506B00F03AB7 /* iHealthyLifestyle */,
+				83C9916E207C506B00F03AB7 /* iHealthyLifestyleTests */,
+				83C99158207C506B00F03AB7 /* Products */,
+				13B0A14F5403BD20E6E80E48 /* Pods */,
+				39DDEC92AE1F38887E03362D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83C99158207C506B00F03AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C99157207C506B00F03AB7 /* iHealthyLifestyle.app */,
+				83C9916B207C506B00F03AB7 /* iHealthyLifestyleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C99159207C506B00F03AB7 /* iHealthyLifestyle */ = {
+			isa = PBXGroup;
+			children = (
+				833B516A207ED5120054F779 /* ExpandableHeaderView */,
+				83C9917A207C50CE00F03AB7 /* MySideMenu */,
+				83C9915A207C506B00F03AB7 /* AppDelegate.swift */,
+				83C9915E207C506B00F03AB7 /* Main.storyboard */,
+				83C99161207C506B00F03AB7 /* Assets.xcassets */,
+				83C99163207C506B00F03AB7 /* LaunchScreen.storyboard */,
+				83C99166207C506B00F03AB7 /* Info.plist */,
+				83A7FF4A207F883A00E74D91 /* emotion.jpeg */,
+				83C99189207C521200F03AB7 /* LeftSideViewController.swift */,
+				83C9918B207C56D800F03AB7 /* NavDrawerTableViewCell.swift */,
+				831B442D207D3A6E00666F2A /* AuthViewController.swift */,
+				83A5604E207D5F96003C40C1 /* ExercisesViewController.swift */,
+				83A56050207DA41E003C40C1 /* CheckboxTableViewCell.swift */,
+				83A56052207DBC15003C40C1 /* ExercisesListViewController.swift */,
+				837C91EC207F40B7009C6C45 /* ExerciseSelectorTableViewCell.swift */,
+				83DBF34D207EAC2400F9E538 /* SingleExerciseViewController.swift */,
+				83A56054207DC836003C40C1 /* WorkoutsListViewController.swift */,
+				837C91EE207F4983009C6C45 /* WorkoutSelectorTableViewCell.swift */,
+				838C7F0B207F246B0008BFC7 /* SingleWorkoutViewController.swift */,
+				838C7F09207F22520008BFC7 /* ExercisesInWorkoutTableViewCell.swift */,
+				831B442B207D384300666F2A /* GoogleService-Info.plist */,
+				833B5166207ECEC60054F779 /* MyWorkoutsViewController.swift */,
+				833B5173207F07020054F779 /* FavExercisesTableViewController.swift */,
+				833B5171207F065D0054F779 /* FavExerciseTableViewCell.swift */,
+			);
+			path = iHealthyLifestyle;
+			sourceTree = "<group>";
+		};
+		83C9916E207C506B00F03AB7 /* iHealthyLifestyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C9916F207C506B00F03AB7 /* iHealthyLifestyleTests.swift */,
+				83C99171207C506B00F03AB7 /* Info.plist */,
+			);
+			path = iHealthyLifestyleTests;
+			sourceTree = "<group>";
+		};
+		83C9917A207C50CE00F03AB7 /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				83C9917F207C50F600F03AB7 /* MMDrawerBarButtonItem.h */,
+				83C99181207C50F600F03AB7 /* MMDrawerBarButtonItem.m */,
+				83C9917C207C50F600F03AB7 /* MMDrawerController.h */,
+				83C99182207C50F600F03AB7 /* MMDrawerController.m */,
+				83C99180207C50F600F03AB7 /* MMDrawerController+Subclass.h */,
+				83C99184207C50F700F03AB7 /* MMDrawerVisualState.h */,
+				83C99183207C50F600F03AB7 /* MMDrawerVisualState.m */,
+				83C9917E207C50F600F03AB7 /* UIViewController+MMDrawerController.h */,
+				83C9917D207C50F600F03AB7 /* UIViewController+MMDrawerController.m */,
+				83C9917B207C50F500F03AB7 /* iHealthyLifestyle-Bridging-Header.h */,
+			);
+			path = MySideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C99156207C506B00F03AB7 /* iHealthyLifestyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C99174207C506B00F03AB7 /* Build configuration list for PBXNativeTarget "iHealthyLifestyle" */;
+			buildPhases = (
+				55C2AAACFA8A37CF3FF4D58D /* [CP] Check Pods Manifest.lock */,
+				83C99153207C506B00F03AB7 /* Sources */,
+				83C99154207C506B00F03AB7 /* Frameworks */,
+				83C99155207C506B00F03AB7 /* Resources */,
+				47E7E26658CD66F3B9B36BD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHealthyLifestyle;
+			productName = iHealthyLifestyle;
+			productReference = 83C99157207C506B00F03AB7 /* iHealthyLifestyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C9916A207C506B00F03AB7 /* iHealthyLifestyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C99177207C506B00F03AB7 /* Build configuration list for PBXNativeTarget "iHealthyLifestyleTests" */;
+			buildPhases = (
+				7C2AE492403F14DF7003E521 /* [CP] Check Pods Manifest.lock */,
+				83C99167207C506B00F03AB7 /* Sources */,
+				83C99168207C506B00F03AB7 /* Frameworks */,
+				83C99169207C506B00F03AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C9916D207C506B00F03AB7 /* PBXTargetDependency */,
+			);
+			name = iHealthyLifestyleTests;
+			productName = iHealthyLifestyleTests;
+			productReference = 83C9916B207C506B00F03AB7 /* iHealthyLifestyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C9914F207C506B00F03AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ISSD;
+				TargetAttributes = {
+					83C99156207C506B00F03AB7 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					83C9916A207C506B00F03AB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83C99156207C506B00F03AB7;
+					};
+				};
+			};
+			buildConfigurationList = 83C99152207C506B00F03AB7 /* Build configuration list for PBXProject "iHealthyLifestyle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C9914E207C506B00F03AB7;
+			productRefGroup = 83C99158207C506B00F03AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C99156207C506B00F03AB7 /* iHealthyLifestyle */,
+				83C9916A207C506B00F03AB7 /* iHealthyLifestyleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C99155207C506B00F03AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C99165207C506B00F03AB7 /* LaunchScreen.storyboard in Resources */,
+				83A7FF4B207F883A00E74D91 /* emotion.jpeg in Resources */,
+				831B442C207D384300666F2A /* GoogleService-Info.plist in Resources */,
+				83C99162207C506B00F03AB7 /* Assets.xcassets in Resources */,
+				83C99160207C506B00F03AB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C99169207C506B00F03AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47E7E26658CD66F3B9B36BD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iHealthyLifestyle/Pods-iHealthyLifestyle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iHealthyLifestyle/Pods-iHealthyLifestyle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55C2AAACFA8A37CF3FF4D58D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHealthyLifestyle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2AE492403F14DF7003E521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iHealthyLifestyleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C99153207C506B00F03AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833B5167207ECEC60054F779 /* MyWorkoutsViewController.swift in Sources */,
+				83C99188207C50F700F03AB7 /* MMDrawerVisualState.m in Sources */,
+				83C9918A207C521200F03AB7 /* LeftSideViewController.swift in Sources */,
+				831B442E207D3A6E00666F2A /* AuthViewController.swift in Sources */,
+				83C99185207C50F700F03AB7 /* UIViewController+MMDrawerController.m in Sources */,
+				83DBF34E207EAC2400F9E538 /* SingleExerciseViewController.swift in Sources */,
+				833B5174207F07020054F779 /* FavExercisesTableViewController.swift in Sources */,
+				83A5604F207D5F96003C40C1 /* ExercisesViewController.swift in Sources */,
+				83C99187207C50F700F03AB7 /* MMDrawerController.m in Sources */,
+				837C91ED207F40B7009C6C45 /* ExerciseSelectorTableViewCell.swift in Sources */,
+				83C9918C207C56D800F03AB7 /* NavDrawerTableViewCell.swift in Sources */,
+				833B516E207ED5C00054F779 /* ExpandableHeaderView.swift in Sources */,
+				83C99186207C50F700F03AB7 /* MMDrawerBarButtonItem.m in Sources */,
+				838C7F0C207F246B0008BFC7 /* SingleWorkoutViewController.swift in Sources */,
+				83A56051207DA41E003C40C1 /* CheckboxTableViewCell.swift in Sources */,
+				83C9915B207C506B00F03AB7 /* AppDelegate.swift in Sources */,
+				833B516C207ED5270054F779 /* Section.swift in Sources */,
+				833B5172207F065D0054F779 /* FavExerciseTableViewCell.swift in Sources */,
+				837C91EF207F4983009C6C45 /* WorkoutSelectorTableViewCell.swift in Sources */,
+				83A56053207DBC15003C40C1 /* ExercisesListViewController.swift in Sources */,
+				838C7F0A207F22520008BFC7 /* ExercisesInWorkoutTableViewCell.swift in Sources */,
+				83A56055207DC836003C40C1 /* WorkoutsListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C99167207C506B00F03AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C99170207C506B00F03AB7 /* iHealthyLifestyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C9916D207C506B00F03AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C99156207C506B00F03AB7 /* iHealthyLifestyle */;
+			targetProxy = 83C9916C207C506B00F03AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83C9915E207C506B00F03AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C9915F207C506B00F03AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C99163207C506B00F03AB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C99164207C506B00F03AB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C99172207C506B00F03AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83C99173207C506B00F03AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C99175207C506B00F03AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531EBA4E66EBB2263630C376 /* Pods-iHealthyLifestyle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthyLifestyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iHealthyLifestyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iHealthyLifestyle/MySideMenu/iHealthyLifestyle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C99176207C506B00F03AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3AE3C81B95B5957C490AD4 /* Pods-iHealthyLifestyle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthyLifestyle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iHealthyLifestyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iHealthyLifestyle/MySideMenu/iHealthyLifestyle-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83C99178207C506B00F03AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F6F13508E061ADFF98196E /* Pods-iHealthyLifestyleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthyLifestyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iHealthyLifestyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealthyLifestyle.app/iHealthyLifestyle";
+			};
+			name = Debug;
+		};
+		83C99179207C506B00F03AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC122D83604DD5C13B760214 /* Pods-iHealthyLifestyleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iHealthyLifestyleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.iHealthyLifestyleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHealthyLifestyle.app/iHealthyLifestyle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C99152207C506B00F03AB7 /* Build configuration list for PBXProject "iHealthyLifestyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C99172207C506B00F03AB7 /* Debug */,
+				83C99173207C506B00F03AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C99174207C506B00F03AB7 /* Build configuration list for PBXNativeTarget "iHealthyLifestyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C99175207C506B00F03AB7 /* Debug */,
+				83C99176207C506B00F03AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C99177207C506B00F03AB7 /* Build configuration list for PBXNativeTarget "iHealthyLifestyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C99178207C506B00F03AB7 /* Debug */,
+				83C99179207C506B00F03AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C9914F207C506B00F03AB7 /* Project object */;
+}
